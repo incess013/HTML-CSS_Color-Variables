@@ -1,0 +1,96 @@
+/* Define Color Variables */
+:root {
+    --primary: #4caf50;        /* Green */
+    --secondary: #8e8e8e;      /* Dark Gray */
+    --background: #f4f4f9;     /* Light Gray */
+    --success: #28a745;        /* Success Green */
+    --warning: #ff9800;        /* Orange */
+    --error: #f44336;          /* Red */
+    --info: #2196f3;           /* Blue */
+    --text-primary: #2c3e50;   /* Dark Text */
+    --text-secondary: #7f8c8d; /* Gray Text */
+    --text-white: #ffffff;     /* White Text */
+    --card-background: #f1c40f; /* Yellow */
+    --border: #dcdcdc;         /* Light Border */
+    --hover: #95a5a6;          /* Hover Effect */
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background);
+    color: var(--text-primary);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+/* Box Styling */
+.box {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    line-height: 100px;
+    border-radius: 8px;
+    color: var(--text-white);
+    display: inline-block;
+    font-weight: bold;
+}
+
+.primary {
+    background-color: var(--primary);
+}
+
+.secondary {
+    background-color: var(--secondary);
+}
+
+.background {
+    background-color: var(--background); /* Background color */
+}
+
+.success {
+    background-color: var(--success);
+}
+
+.warning {
+    background-color: var(--warning);
+}
+
+.error {
+    background-color: var(--error);
+}
+
+.info {
+    background-color: var(--info); /* Info color */
+}
+
+.text-primary {
+    background-color: var(--text-primary);
+}
+
+.text-secondary {
+    background-color: var(--text-secondary);
+}
+
+.text-white {
+    background-color: var(--text-white);
+    color: var(--text-primary); /* Make text primary color for better readability */
+}
+
+.card-background {
+    background-color: var(--card-background);
+}
+
+.border {
+    background-color: var(--border);
+    color: var(--text-primary);
+}
+
+.hover {
+    background-color: var(--hover);
+}
